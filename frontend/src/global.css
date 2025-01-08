@@ -1,0 +1,21 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles for body */
+  body {
+    background-color: #0D1117; /* Light gray background */
+    font-family: 'Arial, sans-serif'; /* Consistent font */
+    color: #CDCDCD; /* Default text color */
+    line-height: 1.6; /* Better text readability */
+  }
+  
+  /* Global headings */
+  h1, h2, h3 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  

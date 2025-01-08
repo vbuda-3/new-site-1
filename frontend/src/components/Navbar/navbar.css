@@ -1,0 +1,37 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    background-color: #212c3d;
+    padding: 10px 0;
+  }
+  
+/* Individual navbar items (li elements) */
+.navbar-item {
+    margin: 0 15px;
+  }
+  
+/* Style the links (buttons) */
+.navbar-item a {
+    text-decoration: none; /* Removes underline */
+    color: white; /* White text */
+    background-color: #28a745; /* Green button color */
+    padding: 7px 30px; /* Adds padding to create a button shape */
+    border-radius: 10px; /* Rounds the corners */
+    font-weight: bold; /* Makes the text bold */
+    transition: background-color 0.5s ease;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+/* Hover effect */
+.navbar-item a:hover {
+    background-color: #1f7e33; /* Darker green on hover */
+    box-shadow: 5px 5px 12px rgba(31, 30, 30, 0.5); /* Slightly bigger shadow on hover */
+  }
+  
+/* Active state for buttons (optional, for current page highlight) */
+.navbar-item a.active {
+    background-color: #11491e; /* Even darker green for active link */
+  }
+  
